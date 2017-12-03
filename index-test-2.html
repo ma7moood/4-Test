@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8" />
+			<title>html 5</title>
+			<link rel="stylesheet" type="text/css" href="">
+			<script type="text/javascript"></script>
+			<style type="text/css">
+			* {box-sizing: border-box;}
+			.continer {width: 200px ; height: 50px ; margin: 60px ; float: left; padding: 10px ; text-align: center ; position: relative ; font-weight: bold  }
+			.continer .box {height: 50px ; color:#fff ;line-height: 50px ; position: relative ; z-index: 2}
+
+
+
+			.normal:before{display: block ; padding: 10px ; margin-bottom: 10px ; content: "normal hover"}
+			.normal .box {background-color:#62c8f8 }
+
+
+			.transtion:before{display: block ; padding: 10px ; margin-bottom: 10px ; content: "transtion hover"}
+			.transtion .box {background-color:#3b5998 }
+
+
+			.animation1:before{display: block ; padding: 10px ; margin-bottom: 10px ; content: "animation1 hover"}
+			.animation1 .box {background-color:#c8302a }
+
+
+			.animation2:before{display: block ; padding: 10px ; margin-bottom: 10px ; content: "animation2 hover"}
+			.animation2 .box {background-color:#62c845 }
+
+
+			.continer a {text-decoration: none ; display: inline-block; height: 50px ; line-height: 50px ; background-color :#333; width: 100% ; color:#fff ; position: relative ; top: -50px ; z-index: 1  }
+
+
+			.continer:hover a {top: 0px}
+
+
+			.transtion a  {transition: all 1s ease-in-out }
+
+
+			@keyframes swinging {
+
+				0%{transform: rotateY(0deg);}
+				20%{transform: rotateY(360deg);}
+
+			}
+
+
+			.animation1:hover a {animation: swinging 5s ease-in-out}
+
+
+			@keyframes moving {
+
+				0%{transform:scaleX(1);}
+				20%{transform:scaleX(1.5)}
+
+			}
+
+
+			.animation2:hover a {animation: moving 5s ease-in-out}
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			</style> 
+		</head>
+		<body>
+      	 <div class="continer normal ">
+      	 		<div class="box">follow me on twitter</div>
+      	 		<a href="#">twitter</a>
+      	 </div>
+       	 <div class="continer transtion">
+      	 		<div class="box">follow me on facebook</div>
+      	 		<a href="#">facebook</a>
+      	 </div>
+      	 <div class="continer animation1">
+      	 		<div class="box">subscrbe on youtube</div>
+      	 		<a href="#">youtube</a>
+      	 </div>
+      	 <div class="continer animation2">
+      	 		<div class="box">follow me on inst</div>
+      	 		<a href="#">instgram</a>
+      	 </div>
+       
+       
+       
+
+
+
+		</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</html>

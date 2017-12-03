@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8" />
+			<title>html 5</title>
+			<link rel="stylesheet" type="text/css" href="">
+			<script type="text/javascript"></script>
+			<style type="text/css">
+			* {box-sizing: border-box;}
+			body {height: 600px ; width: 1340px ; background-color: #aeeabb}	
+			h1 {text-align: center;font-weight: bold ; font-family: Arial  ;font-size: 80px;color: #29729c ;border: 2px solid #29729c; background-color: rgba(208, 182, 90, 0.54) }
+
+			.loading {width: 640px ; height: 300px ; margin: 20px 333px ; position: relative;}
+
+			.loading span {display: block ; position: absolute ; height: 50px ; width: 50px ; margin: 150px; background-color: #cc0b0b ; animation: snake 1.5s infinite ease-in-out ; border-radius: 50%; opacity: .5} 
+
+			span.a1{left: 100px; animation-delay: .2s}
+			span.a2 {left: 150px; animation-delay:.4s}
+			span.a3 {left: 200px; animation-delay:.6s}
+			span.a4 {left: 250px; animation-delay:.8s}
+			span.a5 {left: 300px; animation-delay:.9s}
+			
+			@keyframes snake {
+				0% {opacity: .3; transform: translateY(0);background-color: #cc0b0b;box-shadow: 0 0 3px rgba(0,0,0,0.1)}
+				50% {opacity: 1; transform: translateY(30px);background-color: #030e90 ; box-shadow: 0 20px 3px rgba(0,0,0,0.1)}
+				100% {opacity:.3; transform: translateY(0px);background-color: #030e90 ; box-shadow: 0 0 3px rgba(0,0,0,0.1)}
+
+			}
+
+
+
+
+
+
+
+
+
+
+			</style> 
+		</head>
+		<body>
+			<h1>Your Website Is Lauding </h1>
+			<div class="loading">
+				<span class="a1"></span>
+				<span class="a2"></span>
+				<span class="a3"></span>
+				<span class="a4"></span>
+				<span class="a5"></span>
+			</div>
+
+       
+       
+
+
+
+		</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</html>
